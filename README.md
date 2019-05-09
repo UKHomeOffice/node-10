@@ -3,7 +3,6 @@
 > Base image used for spinning up node based apps images/containers
 
 ## Installing & getting started
-
 > Run the following steps to get base image available
 
 1) Clone this Repo
