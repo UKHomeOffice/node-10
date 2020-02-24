@@ -10,6 +10,6 @@ pipeline:
     force_tag: true
     tags:
       - ${DRONE_COMMIT_SHA}
-      - ${DRONE_BUILD_NUMBER}
+      - build_id_${DRONE_BUILD_NUMBER}
     when:
       event: push
