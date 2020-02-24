@@ -1,4 +1,4 @@
-FROM node:10.19.0-alpine3.9
+FROM node:10.16.0-alpine
 
 RUN apk add font-noto \
     && apk upgrade --no-cache musl
